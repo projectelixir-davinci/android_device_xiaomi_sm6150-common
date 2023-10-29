@@ -34,6 +34,7 @@ vendor/lib64/soundfx/libspatialaudio.so|0242ecf82a322d6654d859123d4dd221c3c2bf12
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 -vendor/lib/soundfx/libasphere.so
+-vendor/lib/soundfx/libmisoundfx.so
 -vendor/lib/soundfx/libshoebox.so
 
 # Bluetooth
