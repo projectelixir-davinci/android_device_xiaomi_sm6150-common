@@ -56,7 +56,7 @@
             </intent-filter>
         </activity>
 
-        <activity
+        <!--activity
             android:name=".dirac.DiracActivity"
             android:exported="false"
             android:label="@string/dirac_title"
@@ -69,7 +69,7 @@
                        android:value="com.android.settings.category.ia.sound" />
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/dirac_summary" />
-        </activity>
+        </activity-->
 
         <activity
             android:name=".thermal.ThermalSettingsActivity"
@@ -108,7 +108,7 @@
             android:permission="ThermalService">
         </service>
 
-        <service
+        <!--service
             android:name=".dirac.DiracTileService"
             android:exported="true"
             android:icon="@drawable/ic_headphone"
@@ -117,7 +117,7 @@
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
-        </service>
+        </service-->
 
     </application>
 </manifest>
